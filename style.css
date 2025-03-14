@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-image: url(background.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333;
+}
+
+header {
+    background-color: #530064b0;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+section {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff7e;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.product section {
+    width: 90%;
+}
+
+.des-pri {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#product-image img {
+    max-width: 90%;
+    height: auto;
+}
+.product #product-image {
+    background: transparent;
+    border: none;
+}
+
+#product-price {
+    margin-top: 30px;
+}
+
+.buy-button {
+    background-color: #9f00be;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.buy-button:hover {
+    background-color: #540064;
+    color: #fff;
+}
+
+#product-reviews {
+    background: #360c3fc0;
+    color: #d6d6d6;
+    letter-spacing: 1.3px;
+}
+#product-reviews .review {
+    border-top: 1px solid #540064;
+    padding: 50px 0;
+}
+#product-reviews h2 {
+    padding: 40px 0;
+}
+
+#product-faq {
+    padding: 50px;
+    text-align: left;
+    margin-bottom: 20px;
+    background: #360c3fc0;
+}
+#product-faq .faq-item {
+    padding: 30px 0;
+    color: #d6d6d6;
+    letter-spacing: 1.3px;
+}
+#product-faq h2 {
+    color: #d400ff;
+    text-transform: uppercase;
+}
+#product-faq .faq-item h3 {
+    color: #d6d6d6;
+    text-decoration: underline;
+}
+
+#contact-info {
+    background: #360c3fc0;
+    padding: 20px;
+    color: #d6d6d6;
+    border-radius: 8px;
+}
+
+footer {
+    background: #360c3fc0;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
